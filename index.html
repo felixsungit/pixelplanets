@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Pixel universe</title>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+			<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+			
+
+			<link rel="stylesheet" href="css/main.css">
+			<link rel="stylesheet" href="css/normalize.css">
+
+	</head>
+	<body>
+		<div id="go_to">
+			<ul>
+				<li>
+					<button id="sun_go_to" class="planets">Sun</button>
+				</li>
+				<li>
+					<button id="mercury_go_to" class="planets">Mercury</button>
+				</li>
+				<li>
+					<button id="venus_go_to" class="planets">Venus</button>
+				</li>
+				<li>
+					<button id="earth_go_to" class="planets">
+						Earth
+					</button>
+					<button class="down_moon" class="planets">
+						<i class="fa fa-angle-down fa-lg down_arrow"></i>
+					</button>
+					<ul class="moons">
+						<li><button id="moon_go_to" class="planets">Moon</button></li>
+					</ul>
+				</li>
+				<li>
+					<button id="mars_go_to" class="planets">Mars</button>
+				</li>
+				<li>
+					<button id="asteroid_belt_st_go_to" class="planets">Asteroid Belt Begining</button>
+					<!-- <button id="asteroid_belt_end_go_to" class="planets">/ End</button> -->
+				</li>
+				<li>
+					<button id="jupiter_go_to" class="planets">Jupiter</button>
+					<button class="down_moon" class="planets">
+						<i class="fa fa-angle-down fa-lg down_arrow"></i>
+					</button>
+					<ul class="moons">
+						<li><button id="io_go_to" >Io</button></li>
+						<li><button id="europa_go_to">Europa</button></li>
+						<li><button id="callisto_go_to">Callisto</button></li>
+						<li><button id="ganymede_go_to">Ganymede</button></li>
+					</ul>
+				</li>
+				<li>
+					<button id="saturn_go_to" class="planets">Saturn</button>
+					<button class="down_moon" class="planets">
+						<i class="fa fa-angle-down fa-lg down_arrow"></i>
+					</button>
+					<ul class="moons">
+						<li><button id="titan_go_to">Titan</button></li>
+					</ul>
+				</li>
+				<li>
+					<button id="uranus_go_to" class="planets">Uranus</button>
+				</li>
+				<li>
+					<button id="neptune_go_to" class="planets">Neptune</button>
+					<button class="down_moon" class="planets">
+						<i class="fa fa-angle-down fa-lg down_arrow"></i>
+					</button>
+					<ul class="moons">
+						<li><button id="triton_go_to">Triton</button></li>
+					</ul>
+				</li>
+				<li>
+					<button id="pluto_go_to" class="planets">Pluto</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="distance">
+			<div id="dis_px">
+				<p id="dis_px_num">0 px</p>
+			</div>
+			<div id="line">
+			</div>
+			<div id="dis_km">
+				<p id="dis_km_num">0 km</p>
+			</div>
+		</div>
+
+
+		<div id="sun_back" class="dark">
+			<div id="sun">
+			</div>
+		</div>
+		<div id="back1" class="back dark">
+
+			<div id="mercury_container">
+				<div id="mercury">
+				</div>
+				<!-- <div class="permanent_mercury"> 
+				  <div class="popover bottom">
+				    <div class="arrow"></div>
+				    <h3 class="popover-title">Mercury</i></h3>
+
+				    <div class="popover-content">
+				      <p>11,869 pixels from the sun</p>
+				      <div class="down_arrow_info">
+				      	<a href="#" ><i class="fa fa-angle-down fa-2x"></i></a>
+				      </div>
+				    </div>
+				  </div>
+				</div> -->
+			</div>
+
+
+			<div id="venus_container">
+				<div id="venus">
+				</div>
+				<!-- <div class="permanent_venus"> 
+				  <div class="popover bottom">
+				    <div class="arrow"></div>
+				    <h3 class="popover-title">Venus</h3>
+				    <div class="popover-content">
+				      <p>22,176 pixels from the sun</p>
+				      <div class="down_arrow_info">
+				      	<a href="#" ><i class="fa fa-angle-down fa-2x"></i></a>
+				      </div>
+				    </div>
+				  </div>
+				</div> -->
+			</div>
+
+
+			<div id="earth_container">
+				<div id="earth">
+				</div>
+				<!-- <div class="permanent_earth">
+				  <div class="popover bottom">
+				    <div class="arrow"></div>
+				    <h3 class="popover-title">Earth</h3>
+				    <div class="popover-content">
+				      <p>11,741 pixels from the sun</p>
+				      <div class="down_arrow_info">
+				      	<a href="#" ><i class="fa fa-angle-down fa-2x"></i></a>
+				      </div>
+				    </div>
+				  </div>
+				</div> -->
+			</div>
+
+			<div id="moon_container">
+				<div id="moon">
+				</div>
+			</div>
+
+
+			<div id="mars_container">
+				<div id="mars">
+				</div>
+				<!-- <div class="permanent"> 
+				  <div class="popover right">
+				    <div class="arrow"></div>
+				    <h3 class="popover-title">Mars</h3>
+				    <div class="popover-content">
+				      <p>46,710 pixels from the sun</p>
+				    </div>
+				  </div>
+				</div> -->
+			</div>
+
+			<div id="asteroid_belt_st">
+				<p>ASTEROID BELT BEGIN</p>
+			</div>
+			<!-- <div id="asteroid_example">
+				<div id="asteroid_1_cont">
+					<div id="asteroid_1"></div>
+				</div>
+				<div id="asteroid-2x_1">
+					<p><i class="fa fa-search"></i> 4x </p>
+				</div>
+				<div id="asteroid_dist">
+					<p>
+						
+					</p>
+				</div>
+				<div id="asteroid_2_cont">
+					<div id="asteroid_2"></div>
+				</div>
+			</div> -->
+
+			<div id="asteroid_belt_end">
+				<p>ASTEROID BELT END</p>
+			</div>
+
+			<div id="jupiter_container">
+				<div id="jupiter">
+					<div></div>
+				</div>
+				<div id="io_container">
+					<div id="io">
+					</div>
+				</div>
+				<div id="europa_container">
+					<div id="europa">
+					</div>
+				</div>
+				<div id="callisto_container">
+					<div id="callisto">
+					</div>
+				</div>
+				<div id="ganymede_container">
+					<div id="ganymede">
+					</div>
+				</div>
+
+				
+			</div>
+
+			
+
+
+
+			
+
+			<div id="saturn_container">
+				<div id="saturn_rings">
+					<div id="saturn_rings_shadow">
+						<div id="saturn">
+							<div id="saturn_shadow"></div>
+							<div id="saturn_shadow_2"></div>
+						</div>
+					</div>
+				</div>
+				<div id="titan_container">
+					<div id="titan">
+					</div>
+				</div>
+			</div>
+
+			<div id="uranus_container">
+				<div id="uranus">
+				</div>
+				<div id="uranus_rings">
+				</div>
+				<div id="uranus_rings_block">
+				</div>
+			</div>
+
+			<div id="neptune_container">
+				<div id="neptune">
+				</div>
+				<div id="triton_container">
+					<div id="triton">
+					</div>
+				</div>
+			</div>
+		
+
+		<div id="pluto_container">
+			<div id="pluto">
+			</div>
+		</div>
+
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+
+	</body>
+</html>
